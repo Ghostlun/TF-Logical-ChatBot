@@ -152,33 +152,12 @@ This project demonstrates:
 * Preparing fine-tuning data with **high-confidence subsets**
 * Understanding the nuances of balancing **logical vs. emotional** AI responses
 
----
-
-## 🎮 Game-Like Aspect
-
-This project integrates **variable timing** and **data-driven personalization** — just like a game adapts based on player choices, this chatbot adapts based on the user’s emotional vs. logical preference.
-
----
-
-## 📂 Code Structure (Main Scripts)
-
-| File                       | Purpose                                         |
-| -------------------------- | ----------------------------------------------- |
-| `preprocessing.py`         | Clean and preprocess the raw counseling data    |
-| `zero_shot_labeling.py`    | Apply BART zero-shot classification             |
-| `resampling.py`            | Balance classes and handle pseudo-labeling      |
-| `classification_model.py`  | Train/test TF-IDF + Logistic Regression         |
-| `prepare_finetune_data.py` | Format top confident examples into JSONL format |
-
----
-
 ## 📈 Future Work
 
-* Integrate with a live chatbot framework (e.g., Rasa, Dialogflow, custom Django backend)
+* Integrate with a live chatbot framework (custom Django backend)
 * Expand dataset to cover more nuanced mental health topics
 * Implement multi-turn conversation flows and context retention
 
----
 
 ## 🌟 How to Use This Repository
 
